@@ -67,11 +67,13 @@ public typealias NKColorWell = NSColorWell
 // MARK: - Container Views
 public typealias NKScrollView = NSScrollView
 public typealias NKStackView = NSStackView
+public typealias NKSplitView = NSSplitView
 public typealias NKSplitViewController = NSSplitViewController
 public typealias NKSplitViewItem = NSSplitViewItem
 public typealias NKTabViewController = NSTabViewController
 public typealias NKTabView = NSTabView
 public typealias NKTabViewItem = NSTabViewItem
+public typealias NKBox = NSBox
 
 // MARK: - Table/Outline Views
 public typealias NKTableView = NSTableView
@@ -114,6 +116,8 @@ public typealias NKMenuItem = NSMenuItem
 // MARK: - Toolbar
 public typealias NKToolbar = NSToolbar
 public typealias NKToolbarItem = NSToolbarItem
+public typealias NKToolbarDelegate = NSToolbarDelegate
+public typealias NKToolbarItemIdentifier = NSToolbarItem.Identifier
 
 // MARK: - Layout & Geometry
 public typealias NKEdgeInsets = NSEdgeInsets
@@ -195,12 +199,14 @@ public typealias NKColorWell = UIColorWell
 // MARK: - Container Views
 public typealias NKScrollView = UIScrollView
 public typealias NKStackView = UIStackView
+public typealias NKSplitView = UISplitViewController
 public typealias NKSplitViewController = UISplitViewController
 public typealias NKTabBarController = UITabBarController
 
 // MARK: - Table/Collection Views
 public typealias NKTableView = UITableView
 public typealias NKTableViewCell = UITableViewCell
+public typealias NKTableViewController = UITableViewController
 public typealias NKCollectionView = UICollectionView
 public typealias NKCollectionViewCell = UICollectionViewCell
 
@@ -234,6 +240,7 @@ public typealias NKDropProposal = UIDropProposal
 public typealias NKMenu = UIMenu
 public typealias NKAction = UIAction
 public typealias NKContextMenuInteraction = UIContextMenuInteraction
+public typealias NKContextMenuConfiguration = UIContextMenuConfiguration
 
 // MARK: - Navigation & Toolbar
 public typealias NKNavigationController = UINavigationController
@@ -252,6 +259,10 @@ public typealias NKBlurEffect = UIBlurEffect
 
 // MARK: - Alert Actions
 public typealias NKAlertAction = UIAlertAction
+
+// MARK: - Appearance
+public typealias NKUserInterfaceStyle = UIUserInterfaceStyle
+public typealias NKTraitCollection = UITraitCollection
 
 // MARK: - Tab Bar
 public typealias NKTabBarItem = UITabBarItem
